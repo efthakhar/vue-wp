@@ -1,0 +1,17 @@
+{
+    "name": "efthakhar/vue-wp",
+    "description": "A boilerplate Plugin for wordpress with vue js",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [{
+        "name": "Efthakhar Bin Alam",
+        "email": "efthakharbin@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "VUE_WP\\": "includes/"
+        }       
+    }
+}
